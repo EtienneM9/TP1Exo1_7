@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TP1AndroidSansGit</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prenom</string>
+    <string name="tel">Tel</string>
+    <string name="sub">Enregistrer</string>
+    <string name="change_language">Changer le langage</string>
+</resources>
