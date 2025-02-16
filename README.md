@@ -41,7 +41,7 @@ Page d'accueil avec les différents inputs, un bouton dubmit pour valider les in
 
 ### Écran d'accueil (Français)
 
-Page en Français. La langue est définie par le thème de base de l'appareil. Un changement est aussi possible avec le bouton.
+Page en Français. La langue est définie par le thème de base de l'appareil via les différents fichiers "string.xml" de l'application. Un changement est aussi possible avec le bouton dédié.
 
  <img src="images/accueilfr.png" alt="Accueil" width="45%" />
 
