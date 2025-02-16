@@ -4,5 +4,6 @@
     <string name="prenom">First name</string>
     <string name="tel">Phone</string>
     <string name="sub">Submit</string>
+    <string name="comp">Skills</string>
     <string name="change_language">Change Language</string>
 </resources>

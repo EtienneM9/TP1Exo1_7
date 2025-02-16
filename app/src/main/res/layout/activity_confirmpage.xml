@@ -1,44 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/darkBlue"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".ConfirmationPage">
 
-
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/ShowInfo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="100dp"
-        android:textAlignment="center"
+        android:gravity="center"
         android:text="Your informations are confirmed"
-        android:textSize="30sp"
-        />
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/ShowTel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:layout_centerVertical="true"
-        android:textAlignment="center"
-        android:layout_below="@+id/ShowInfo"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
         android:text=""
-        android:textSize="30sp"
-        />
+        android:textColor="@color/white"
+        android:textSize="24sp" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/callButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ShowTel"
-        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/clay"
         android:text="Appeler"
-        android:onClick="makeCall"
-        />
+        android:textColor="@color/white" />
 
-</RelativeLayout>
+</LinearLayout>

@@ -14,9 +14,13 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
+import com.google.android.material.button.MaterialButton;
+
 public class ConfirmationPage extends AppCompatActivity {
     private String number;
     private TextView tel;
+    private MaterialButton callButton;
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -24,8 +28,16 @@ public class ConfirmationPage extends AppCompatActivity {
         setContentView(R.layout.activity_confirmpage);
 
         tel = findViewById(R.id.ShowTel);
+        callButton = findViewById(R.id.callButton);
         number = getIntent().getStringExtra("Tel");
         tel.setText(number);
+
+        callButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                makeCall(v);
+            }
+        });
     }
 
     public void makeCall(View view) {

@@ -97,6 +97,7 @@ public class MainActivity extends AppCompatActivity {
         EditText prenom = findViewById(R.id.FirstNamefield);
         EditText tel = findViewById(R.id.Phonefield);
         EditText age = findViewById(R.id.Agefield);
+        EditText comp = findViewById(R.id.compField);
         Log.d("DATA2", "Data fetched");
 
         ArrayList<String> listdata = new ArrayList<String>();
@@ -104,6 +105,7 @@ public class MainActivity extends AppCompatActivity {
         listdata.add(prenom.getText().toString());
         listdata.add(tel.getText().toString());
         listdata.add(age.getText().toString());
+        listdata.add(comp.getText().toString());
         Log.d("DATA3", "Array created");
 
         return listdata;
