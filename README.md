@@ -1,18 +1,17 @@
 # FirstAndroidApp
 
 ## Introduction
-Ceci est une application Android très basique développée en Java et Android Studio. Elle sert de première application pour découvrir la programmation mobile avec une interface utilisateur simple.
 
-## Instructions d'installation
+### Instructions d'installation
 
-### Avec Android Studio
+#### Avec Android Studio
 1. Clonez le dépôt sur votre machine locale.
 2. Ouvrez Android Studio et sélectionnez "Ouvrir un projet existant".
 3. Naviguez jusqu'au dépôt cloné et sélectionnez-le.
 4. Laissez Android Studio télécharger et installer toutes les dépendances nécessaires.
 5. Une fois le projet chargé, cliquez sur le bouton "Exécuter" pour construire et exécuter l'application sur un émulateur ou un appareil connecté.
 
-### Sans Android Studio
+#### Sans Android Studio
 1. Clonez le dépôt sur votre machine locale.
 2. Assurez-vous d'avoir installé le SDK Android et Gradle.
 3. Ouvrez un terminal et naviguez jusqu'au répertoire du projet.
@@ -26,10 +25,12 @@ Ceci est une application Android très basique développée en Java et Android S
    ```
 
 ## Objectif de l'application
-L'objectif de cette application est de fournir une introduction simple à la programmation mobile. Elle est conçue comme une première application pour les débutants afin d'apprendre les bases du développement Android et de créer une interface utilisateur simple.
+L'objectif de cette application était de découvrir la programmation mobile et ses concepts de base via Android Studio. 
+L'UI de cette application n'est donc pas des plus travaillée, car elle sert "d'introduction" au domaine.
+Les deux applications suivantes, elles, seront plus poussées.
 
 ## Présentation de l'interface utilisateur
-Voici les images de l'interface utilisateur à 45% de leur taille originale :
+Voici des images de l'interface démontrant les différentes fonctionnalités.
 
 ### Écran d'accueil
 
